@@ -1,0 +1,85 @@
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fc;
+    padding: 40px 60px;
+    font-family: "Arial", sans-serif;
+    color: #3d3d3d;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    color: #3d3d3d;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-section a:hover {
+    color: #007bff;
+  }
+  
+  /* Security Logos */
+  .security-logos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .security-logos img {
+    height: 40px;
+  }
+  
+  /* PayVang Logo */
+  .payvang-logo {
+    width: 120px;
+    margin-top: 10px;
+  }
+  
+  /* Quick Links */
+  .quick-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin: 8px 0;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .highlight {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

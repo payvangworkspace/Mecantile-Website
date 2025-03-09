@@ -1,0 +1,60 @@
+/* CallToAction.css */
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #76b852, #8dc26f);
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+    max-width: 900px;
+    margin: 40px auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cta-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .cta-content {
+    flex: 1;
+  }
+  
+  .cta-tag {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+  
+  .cta-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .cta-text {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  
+  .cta-button {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .cta-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,76 @@
+/* Section Styling */
+.modern-services {
+    text-align: center;
+    padding: 60px 10%;
+    background: #f9f9f9;
+  }
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section-title span {
+    color: #2f312f;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Grid Layout */
+  .service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Card Styling */
+  .service-card {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  /* Icon Styling */
+  .service-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  
+  /* Text Styling */
+  .service-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Hover Effect */
+  .service-card:hover {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .service-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
