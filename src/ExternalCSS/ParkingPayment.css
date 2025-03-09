@@ -1,0 +1,161 @@
+/* Global Styling */
+/* body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: "Poppins", sans-serif;
+    color: #333;
+} */
+
+/* Container */
+.smart-parking-container {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+    margin-top: 23vh;
+}
+
+/* Header */
+.smart-header h1 {
+    font-size: 30px;
+    color: #1e3c72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.smart-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Content Layout */
+.smart-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* Benefits Section */
+.smart-benefits {
+    width: 45%;
+    text-align: left;
+}
+
+.smart-benefits h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+/* Benefits List */
+.smart-benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.smart-benefits li {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #444;
+}
+
+.icon {
+    font-size: 18px;
+    color: green;
+}
+
+/* Payment Form */
+.smart-payment-form {
+    width: 50%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.smart-payment-form:hover {
+    transform: translateY(-5px);
+}
+
+/* Inputs */
+.smart-input-field {
+    width: 94%;
+    padding: 12px;
+    margin-top: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.smart-input-field:focus {
+    border-color:  #2f9b32;
+    outline: none;
+    box-shadow:  0 0 5px rgba(47, 155, 50, 0.5);
+}
+
+/* Dropdown */
+.smart-dropdown {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.smart-dropdown:hover {
+    border-color:   #2f9b32;
+}
+
+/* Button */
+.smart-fetch-btn {
+    width: 100%;
+    background:linear-gradient(to right, #2f9b32, #75d650);
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.smart-fetch-btn:hover {
+    background:   #2f9b32;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .smart-content {
+        flex-direction: column;
+    }
+    .smart-benefits, .smart-payment-form {
+        width: 100%;
+        text-align: center;
+    }
+}

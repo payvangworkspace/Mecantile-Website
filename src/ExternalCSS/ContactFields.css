@@ -1,0 +1,124 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* General Styles */
+/* body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+/* Container */
+.cf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  padding: 20px;
+  /* max-height: 90vh; */
+  margin-top: 7vh;
+}
+
+/* Form Wrapper */
+.cf-wrapper {
+  background: white;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 50vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.cf-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+/* Form Title */
+.cf-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Input Fields */
+.cf-group {
+  margin-bottom: 1rem;
+}
+
+.cf-label {
+  display: block;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.cf-input,
+.cf-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: all 0.3s ease-in-out;
+}
+
+.cf-input:focus,
+.cf-textarea:focus {
+  border-color: #2f9b32;
+  outline: none;
+  background: #fff;
+  box-shadow: 0px 0px 6px rgba(37, 99, 235, 0.3);
+}
+
+/* Textarea */
+.cf-textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* Submit Button */
+.cf-button {
+  width: 100%;
+  background: linear-gradient(to right, #2f9b32, #75d650);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.cf-button:hover {
+  background: linear-gradient(to right, #2f9b32, #75d650);
+  box-shadow: 0 0 5px rgba(47, 155, 50, 0.5);
+}
+
+.cf-button:active {
+  transform: scale(0.97);
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .cf-wrapper {
+    padding: 1.8rem;
+  }
+
+  .cf-title {
+    font-size: 1.5rem;
+  }
+}

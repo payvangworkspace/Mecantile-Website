@@ -11,6 +11,8 @@ import { Utility } from "./Components/Utility";
 import { School } from "./Components/School";
 import { Login } from "./Components/Login";
 import { SignupComponent } from "./Components/SignupComponent";
+import { Parking } from "./Components/Parking";
+import { Contact } from "./Components/Contact";
 
 // Remove the curly braces
 
@@ -25,6 +27,8 @@ function App() {
           <Route path="/school" element={<School />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignupComponent />} />
+          <Route path="/parking" element={<Parking />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
  
       </div>

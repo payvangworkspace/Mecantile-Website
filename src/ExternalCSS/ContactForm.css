@@ -1,0 +1,113 @@
+/* Background and Layout */
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 20px;
+    margin-top:15vh
+  }
+  
+  /* Contact Card with Glassmorphism Effect */
+  .contact-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Contact Title */
+  .contact-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Underline Effect */
+  .underline {
+    width: 60px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 8px auto 20px;
+    border-radius: 2px;
+    animation: slide-in 1s ease-in-out;
+  }
+  
+  @keyframes slide-in {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60px;
+    }
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  /* Contact Items */
+  .contact-item {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .contact-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  /* Contact Icons */
+  .contact-icon {
+    font-size: 22px;
+    color: #ffcc00;
+  }
+  
+  /* Contact Links */
+  .contact-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .contact-item a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .contact-card {
+      padding: 30px 20px;
+    }
+    .contact-title {
+      font-size: 22px;
+    }
+    .contact-item {
+      font-size: 16px;
+    }
+  }
+  
