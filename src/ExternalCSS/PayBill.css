@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 95vh;
+    padding: 30px 20px;
+  }
+  
+  /* Header */
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Content Box */
+  .content-box {
+    display: flex;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  /* Left Section */
+  .left-section {
+    width: 50%;
+    padding-right: 10px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+  }
+  
+  .alphabet-button {
+    background: #e8e8e8;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 6px;
+  }
+  
+  .alphabet-button:hover {
+    background: #28a745;
+    color: white;
+  }
+  
+  .selected {
+    background: #28a745 !important;
+    color: white;
+  }
+  
+  /* Right Section */
+  .right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    border-color: #28a745;
+    outline: none;
+  }
+  
+  /* Proceed Button */
+  .proceed-button {
+    background: linear-gradient(90deg, #28a745, #1e7e34);
+    border: none;
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .proceed-button:hover {
+    background: linear-gradient(90deg, #1e7e34, #145c2e);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content-box {
+      flex-direction: column;
+    }
+    .left-section, .right-section {
+      width: 100%;
+    }
+    .alphabet-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .alphabet-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  

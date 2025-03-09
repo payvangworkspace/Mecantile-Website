@@ -13,6 +13,7 @@ const paymentMethods = [
 const PaymentOptions = () => {
   return (
     <section className="payment-options">
+
       {paymentMethods.map((method, index) => (
         <motion.div
           key={index}

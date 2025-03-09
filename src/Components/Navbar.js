@@ -1,9 +1,20 @@
 import React, { useState } from "react";
 import "../ExternalCSS/Navbar.css"; // Import external CSS
 import { FaBars, FaTimes } from "react-icons/fa"; // Import icons
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const navigate=useNavigate();
+
+
+  const loginRedirect=()=>{
+    navigate("/login")
+  }
+  const signupRedirect=()=>{
+    navigate("/signup")
+  }
 
   return (
     <nav className="navbar">
@@ -19,17 +30,17 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <ul className={`nav-links ${isMobile ? "mobile-menu" : ""}`} onClick={() => setIsMobile(false)}>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Utility Bills</a></li>
-        <li><a href="#">School Fee</a></li>
-        <li><a href="#">Parking Payment</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/utility">Utility Bills</Link></li>
+        <li><Link to="/school">School Fee</Link></li>
+        <li><Link to="/parking">Parking Payment</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
       </ul>
 
       {/* Buttons */}
       <div className="nav-buttons">
-        <button className="login-btn">Login</button>
-        <button className="signup-btn">Sign Up</button>
+        <button className="login-btn" onClick={loginRedirect}>Login</button>
+        <button className="signup-btn" onClick={signupRedirect}>Sign Up</button>
       </div>
     </nav>
   );

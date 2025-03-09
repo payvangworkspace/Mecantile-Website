@@ -1,53 +1,59 @@
 import React from "react";
-import "../ExternalCSS/Footer.css"; // External CSS file
+import "../ExternalCSS/Footer.css";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Payment Security Section */}
+        
+        {/* Company Info */}
         <div className="footer-section">
-          <h3>Payment Secured By</h3>
-          <div className="security-logos">
-            <img src="logo_SSL.png" alt="SSL Secure" />
-            <img src="logo_nortan.png" alt="Norton Secure" />
-          </div>
+          <h3>Company</h3>
           <p className="company-name">V.VANG SOLUTIONS PRIVATE LIMITED</p>
-          <p>Registration Number: 159588</p>
+          <p>Registration No: 159588</p>
           <p>GST: 07AACCC9997R2ZG</p>
           <p>CIN/LLPIN/FCRN: U67100DL2007PTC159588</p>
-          <p>LEI Code: 984500F8612B2AAF9F02</p>
         </div>
 
-        {/* Quick Links Section */}
+        {/* Quick Links */}
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul className="quick-links">
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
             <li><a href="#">Disclaimer</a></li>
-            <li><a href="#">Grievance Redressal</a></li>
+            <li><a href="#">Support</a></li>
           </ul>
         </div>
 
-        {/* Product By Section */}
+        {/* Contact Info */}
         <div className="footer-section">
-          <h3>Product By</h3>
-          <img src="logo-m.png" alt="PayVang" className="payvang-logo" />
-        </div>
-
-        {/* Contact Section */}
-        <div className="footer-section">
-          <h3>Get In Touch</h3>
+          <h3>Contact Us</h3>
           <p>Email: <a href="mailto:info@payvangservices.com">info@payvangservices.com</a></p>
           <p>Phone: (+91) 011-451289901 / 02</p>
+          <div className="social-icons">
+            <a href="#"><FaFacebookF /></a>
+            <a href="#"><FaTwitter /></a>
+            <a href="#"><FaInstagram /></a>
+            <a href="#"><FaLinkedinIn /></a>
+          </div>
+        </div>
+
+        {/* Security Logos */}
+        <div className="footer-section">
+          <h3>Secure Payments</h3>
+          <div className="security-logos">
+            <img src="logo_SSL.png" alt="SSL Secure" />
+            <img src="logo_nortan.png" alt="Norton Secure" />
+          </div>
         </div>
       </div>
 
-      {/* Copyright Section */}
+      {/* Footer Bottom */}
       <div className="footer-bottom">
-        <p>© Copyrights 2023 <span className="highlight">MercantilePay Services</span>. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} <span className="highlight">MercantilePay Services</span>. All rights reserved.</p>
       </div>
     </footer>
   );

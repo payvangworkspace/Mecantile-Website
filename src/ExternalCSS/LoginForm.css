@@ -1,0 +1,113 @@
+/* LoginForm.css */
+/* body {
+    background: linear-gradient(to right, #1e9600, #5ecb31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  } */
+  
+  .auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .auth-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 360px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Logo Section */
+  .auth-logo {
+    margin-bottom: 15px;
+  }
+  
+  .auth-logo img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .auth-field {
+    margin: 15px 0;
+    text-align: left;
+  }
+  
+  .auth-field label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .auth-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-field input:focus {
+    border-color: #2f9b32;
+    outline: none;
+    box-shadow: 0 0 5px rgba(47, 155, 50, 0.5);
+  }
+  
+  .auth-options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .auth-link {
+    color: #2f9b32;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-button {
+    background: linear-gradient(to right, #2f9b32, #75d650);
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(47, 155, 50, 0.3);
+  }
+  
+  .auth-footer {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

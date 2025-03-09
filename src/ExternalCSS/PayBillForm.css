@@ -1,0 +1,67 @@
+/* PayBill.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: #f9fafb;
+  }
+  
+  .pay-bill-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure all fields and button have the same width */
+  .input-field,
+  .proceed-btn {
+    width: 95%;  /* Same width for all fields */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+  }
+  
+  /* Dropdown should have same styling as input fields */
+  select.input-field {
+    appearance: none;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  
+  .proceed-btn {
+    background: #8bc34a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .proceed-btn:hover {
+    background: #7cb342;
+  }
+  

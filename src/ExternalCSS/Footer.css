@@ -1,85 +1,109 @@
-/* Footer Styles */
+/* Modern Footer Styles */
 .footer {
-    background-color: #f8f9fc;
-    padding: 40px 60px;
-    font-family: "Arial", sans-serif;
-    color: #3d3d3d;
-  }
-  
+  background: #111;
+  color: #fff;
+  padding: 50px 10%;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  margin-top: 12vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fbbc05;
+  text-transform: uppercase;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-section a:hover {
+  color: #fbbc05;
+}
+
+/* Quick Links */
+.quick-links {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin: 10px 0;
+}
+
+.quick-links a {
+  transition: color 0.3s;
+}
+
+/* Security Logos */
+.security-logos {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.security-logos img {
+  height: 40px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #fbbc05;
+  font-size: 18px;
+  margin-right: 12px;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  margin-top: 30px;
+}
+
+.highlight {
+  color: #fbbc05;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
   .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
   }
-  
-  .footer-section {
-    flex: 1;
-    min-width: 200px;
-    margin-bottom: 20px;
+
+  .social-icons {
+      justify-content: center;
   }
-  
-  .footer-section h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #222;
-  }
-  
-  .footer-section p {
-    font-size: 14px;
-    line-height: 1.6;
-    margin: 5px 0;
-  }
-  
-  .footer-section a {
-    color: #3d3d3d;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .footer-section a:hover {
-    color: #007bff;
-  }
-  
-  /* Security Logos */
-  .security-logos {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .security-logos img {
-    height: 40px;
-  }
-  
-  /* PayVang Logo */
-  .payvang-logo {
-    width: 120px;
-    margin-top: 10px;
-  }
-  
-  /* Quick Links */
-  .quick-links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .quick-links li {
-    margin: 8px 0;
-  }
-  
-  /* Footer Bottom */
-  .footer-bottom {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 14px;
-    border-top: 1px solid #ddd;
-  }
-  
-  .highlight {
-    color: #007bff;
-    font-weight: bold;
-  }
-  
+}
