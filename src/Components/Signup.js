@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../ExternalCSS/Signup.css";
+import { Link } from "react-router-dom";
 // import logo from "../assets/logo.png"; // Ensure the correct path to your logo
 
 const Signup = () => {
@@ -57,7 +58,7 @@ const Signup = () => {
           <button type="submit" className="signup-button">Sign Up</button>
 
           <p className="signup-footer">
-            Already have an account? <a href="#" className="signup-link">Log in</a>
+            Already have an account? <Link to="/login" className="signup-link">Log in</Link>
           </p>
         </form>
       </div>

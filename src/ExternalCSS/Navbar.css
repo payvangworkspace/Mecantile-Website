@@ -12,6 +12,12 @@
     z-index: 1000;
  
 }
+/* Highlight Active Link */
+.nav-links a.active {
+    color: #d5274f; /* Light Green */
+    font-weight: bold;
+}
+
 
 /* Logo Section */
 .logo {
@@ -88,6 +94,40 @@
     margin-right: 20px;
     /* border: 2px solid red; */
 }
+
+
+/* Default Button Styles */
+.login-btn,
+.signup-btn {
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Default Colors */
+.login-btn {
+    background: white;
+    color: #6dbd45;
+    border: 2px solid #6dbd45;
+}
+
+.signup-btn {
+    background: white;
+    color: #52ab25;
+    border: 2px solid #59b02d;
+}
+
+/* Active Button */
+.active-btn {
+    background: #1f9e1f !important; /* Light Green */
+    color: white !important;
+    border: none;
+}
+
 
 /* ✅ Responsive Design for Different Devices */
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "../ExternalCSS/LoginForm.css";
+import { Link } from "react-router-dom";
 // import logo from "../assets/logo.png"; // Replace with your actual logo path
 
 const LoginForm = () => {
@@ -32,7 +33,7 @@ const LoginForm = () => {
           <button type="submit" className="auth-button">Log In</button>
 
           <p className="auth-footer">
-            Don't have an account? <a href="#" className="auth-link">Sign up</a>
+            Don't have an account? <Link to="/signup" className="auth-link">Sign up</Link>
           </p>
         </form>
       </div>

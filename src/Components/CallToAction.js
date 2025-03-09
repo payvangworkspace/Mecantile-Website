@@ -1,7 +1,17 @@
 import React from "react";
 import "../ExternalCSS/CallToAction.css"; // External CSS
+import { useNavigate } from "react-router-dom";
 
 const CallToAction = () => {
+
+  const navigate=useNavigate();
+
+  const requestCallBack=()=>{
+    navigate("/contact")
+
+  }
+
+
   return (
     <section className="cta-container">
       <div className="cta-content">
@@ -11,7 +21,7 @@ const CallToAction = () => {
           Speak to our specialist at (+91 011-451289901/02)
         </p>
       </div>
-      <button className="cta-button">Request Call Back →</button>
+      <button className="cta-button" onClick={requestCallBack}>Request Call Back →</button>
     </section>
   );
 };

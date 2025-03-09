@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PaymentSolution from './PaymentSolution'
 import PaymentOptions from './PaymentOptions'
 import ModernServices from './ModernServices'
@@ -7,6 +7,12 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 export const Home = () => {
+
+  useEffect(()=>{
+    document.title="MercantilePay - Home"
+  })
+
+
   return (
  <>
  <Navbar/>
