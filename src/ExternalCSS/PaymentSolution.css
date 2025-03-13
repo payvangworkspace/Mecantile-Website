@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     margin-top: 12vh;
     transition: all 0.3s ease-in-out;
+    /* border:2px solid green; */
   }
   
   /* Left Content */
@@ -42,7 +43,7 @@
   }
   
   /* Button */
-  .cta-button {
+  .cts-button {
     margin-top: 25px;
     padding: 14px 28px;
     background: #34a853;
@@ -56,7 +57,7 @@
     transition: all 0.3s ease;
   }
   
-  .cta-button:hover {
+  .cts-button:hover {
     background: #2b8d46;
     transform: translateY(-3px);
     box-shadow: 0px 8px 18px rgba(52, 168, 83, 0.4);
@@ -86,6 +87,7 @@
       flex-direction: column;
       text-align: center;
       padding: 60px 8%;
+      /* border:2px solid pink; */
     }
   
     .content {
@@ -106,7 +108,7 @@
       font-size: 16px;
     }
   
-    .cta-button {
+    .cts-button {
       font-size: 16px;
       padding: 12px 24px;
     }

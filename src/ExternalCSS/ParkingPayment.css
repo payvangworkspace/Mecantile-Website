@@ -16,6 +16,7 @@
     animation: fadeIn 1s ease-in-out;
     text-align: center;
     margin-top: 23vh;
+    /* border: 2px solid orange; */
 }
 
 /* Header */
@@ -38,6 +39,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    /* border: 2px solid green; */
 }
 
 /* Benefits Section */
@@ -80,6 +82,7 @@
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    /* border: 2px solid blue; */
 }
 
 .smart-payment-form:hover {
@@ -158,4 +161,40 @@
         width: 100%;
         text-align: center;
     }
+
+    .smart-input-field {
+        width: 60%;
+        padding: 12px;
+        margin-top: 12px;
+        border: 2px solid #ccc;
+        border-radius: 6px;
+        font-size: 15px;
+        transition: 0.3s;
+        /* border: 2px solid red; */
+    
+    }
+
+    .smart-dropdown {
+        width: 65%;
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 6px;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    .smart-fetch-btn{
+        width: 65%;
+    }
+    .smart-payment-form {
+        width: 87%;
+    }
+    .smart-parking-container{
+        margin-top: 50px;
+    }
+
+
+
+
+
 }

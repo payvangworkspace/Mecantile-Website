@@ -38,7 +38,7 @@ const PayBillForm = () => {
           onChange={(e) => setPhone(e.target.value)}
         />
 
-        <button className="proceed-btn">Proceed</button>
+        <button className="proceed-btn" onClick={()=>alert("Working soon.")}>Proceed</button>
       </div>
     </div>
   );

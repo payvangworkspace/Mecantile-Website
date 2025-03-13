@@ -10,10 +10,8 @@ const Footer = () => {
         {/* Company Info */}
         <div className="footer-section">
           <h3>Company</h3>
-          <p className="company-name">V.VANG SOLUTIONS PRIVATE LIMITED</p>
-          <p>Registration No: 159588</p>
-          <p>GST: 07AACCC9997R2ZG</p>
-          <p>CIN/LLPIN/FCRN: U67100DL2007PTC159588</p>
+          <p className="company-name">Mercantile Pay</p>
+          <p>License Number: </p>
         </div>
 
         {/* Quick Links */}
@@ -31,8 +29,9 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Email: <a href="mailto:info@payvangservices.com">info@payvangservices.com</a></p>
-          <p>Phone: (+91) 011-451289901 / 02</p>
+          <p>Email: <a href="mailto:info@payvangservices.com">info@mercantilepay.com</a></p>
+          <p>Address : Lot 20 Dowding Street, Kitty, Georgetown, Guyana</p>
+          <p>Phone: +592 608 2581</p>
           <div className="social-icons">
             <a href="#"><FaFacebookF /></a>
             <a href="#"><FaTwitter /></a>

@@ -11,7 +11,7 @@ const ContactForm = () => {
         <div className="contact-info">
           <p className="contact-item">
             <FaPhoneAlt className="contact-icon" />
-            <span>+91 011-45128901 / 02</span>
+            <span>+592 608 2581</span>
           </p>
           <p className="contact-item">
             <FaEnvelope className="contact-icon" />

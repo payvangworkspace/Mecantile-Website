@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 70vh;
     background-color: #f9fafb;
+    /* border: 2px solid red; */
   }
   
   .pay-bill-box {
@@ -15,6 +16,7 @@
     text-align: center;
     width: 100%;
     max-width: 400px;
+    /* border: 2px solid blue; */
   }
   
   .title {
@@ -48,6 +50,7 @@
     cursor: pointer;
     width: 100%;
 
+
   }
   
   .proceed-btn {
@@ -64,4 +67,58 @@
   .proceed-btn:hover {
     background: #7cb342;
   }
+  
+
+  @media only screen and (max-width: 786px) {
+
+    .container{
+      /* border: 2px solid pink; */
+    }
+
+    .pay-bill-box{
+      /* border: 2px solid green; */
+      background: white;
+      padding: 12px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .input-field,
+    .proceed-btn {
+      width: 95%;  /* Same width for all fields */
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      outline: none;
+      transition: border-color 0.3s ease-in-out;
+    }
+  select.input-field {
+    appearance: none;
+    background-color: white;
+    cursor: pointer;
+    width: 98%;
+    
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
   

@@ -3,6 +3,7 @@
     text-align: center;
     padding: 60px 10%;
     background: #f9f9f9;
+    /* border: 2px solid green; */
   }
   
   /* Title Styling */
@@ -33,6 +34,7 @@
   
   /* Card Styling */
   .service-card {
+    /* border: 2px solid orange; */
     background: white;
     padding: 25px;
     width: 280px;
@@ -72,5 +74,15 @@
       flex-direction: column;
       align-items: center;
     }
+
+.service-card{
+  /* border: 2px solid blue; */
+  padding: 2px;
+}
+
+
+
+
+
   }
   

@@ -1,7 +1,18 @@
 import React from "react";
 import "../ExternalCSS/PaymentSolution.css"; // Importing external CSS
+import { useNavigate } from "react-router-dom";
+
 
 const PaymentSolution = () => {
+  const navigate=useNavigate();
+  const callContact=()=>{
+  navigate("/contact")
+   
+
+  }
+
+
+
   return (
     <section className="payment-section">
       {/* Left Content */}
@@ -12,7 +23,7 @@ const PaymentSolution = () => {
           Empower your business with fast, secure, and innovative payment processing. 
           Whether online, mobile, or in-store, we ensure seamless transactions with cutting-edge security and efficiency.
         </p>
-        <button className="cta-button">Get Started</button>
+        <button className="cts-button" onClick={callContact}>Get In Touch</button>
       </div>
 
       {/* Right Image */}

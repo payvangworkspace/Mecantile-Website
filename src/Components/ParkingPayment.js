@@ -8,7 +8,7 @@ const ParkingPayment = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
 
   const handleFetchBill = () => {
-    alert("Fetching bill for " + licensePlate);
+    alert("To be Start Soon this functionality.")
   };
 
   return (

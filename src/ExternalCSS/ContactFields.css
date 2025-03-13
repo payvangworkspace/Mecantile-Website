@@ -22,6 +22,7 @@
   padding: 20px;
   /* max-height: 90vh; */
   margin-top: 7vh;
+  /* border: 2px solid red; */
 }
 
 /* Form Wrapper */
@@ -112,6 +113,20 @@
   transform: scale(0.97);
 }
 
+@media (max-width: 786px) {
+  .cf-container{
+    /* border: 2px solid green; */
+    width: 87vw;
+  }
+.cf-wrapper{
+/* border: 2px solid orange; */
+min-width: 75%;
+}
+
+
+
+
+}
 /* Responsive Design */
 @media (max-width: 500px) {
   .cf-wrapper {
@@ -122,3 +137,7 @@
     font-size: 1.5rem;
   }
 }
+
+
+
+

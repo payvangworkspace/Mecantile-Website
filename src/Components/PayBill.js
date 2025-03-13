@@ -47,7 +47,7 @@ const PayBill = () => {
           </select>
           <input type="text" className="input-field" placeholder="Admission ID *" />
           <input type="tel" className="input-field" placeholder="Phone Number *" />
-          <motion.button className="proceed-button" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+          <motion.button className="proceed-button" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} onClick={()=>{alert("To be start soon this functionality.")}}>
             Proceed to Pay
           </motion.button>
         </div>
