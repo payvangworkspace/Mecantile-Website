@@ -29,7 +29,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Email: <a href="mailto:info@payvangservices.com">info@mercantilepay.com</a></p>
+          <p>Email: <a href="mailto:info@mercantilepay.com">info@mercantilepay.com</a></p>
           <p>Address : Lot 20 Dowding Street, Kitty, Georgetown, Guyana</p>
           <p>Phone: +592 608 2581</p>
           <div className="social-icons">

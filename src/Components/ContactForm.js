@@ -15,7 +15,7 @@ const ContactForm = () => {
           </p>
           <p className="contact-item">
             <FaEnvelope className="contact-icon" />
-            <a href="mailto:info@payvangservices.com">info@mercantilepay.com</a>
+            <a href="mailto:info@mercantilepay.com">info@mercantilepay.com</a>
           </p>
         </div>
       </div>
