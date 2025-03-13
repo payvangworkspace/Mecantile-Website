@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Company</h3>
           <p className="company-name">Mercantile Pay</p>
-       
+          <p className="company-license">License Number : 3489945</p>
         </div>
 
         {/* Quick Links */}
